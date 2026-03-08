@@ -4,7 +4,7 @@
 
 <br/>
 
-[![🌐 Live Website](https://img.shields.io/badge/🌐%20Live%20Website-Visit%20Now-a855f7?style=for-the-badge&logoColor=white)](https://tarunmanikanta5706.github.io/portfolio/)
+[![🌐 Live Website](https://img.shields.io/badge/🌐%20Live%20Website-Visit%20Now-a855f7?style=for-the-badge&logoColor=white)](https://tarunmanikanta5706.github.io/PORTFOLIO-TARUN/)
 
 <br/>
 
@@ -24,9 +24,9 @@
 
 <div align="center">
 
-### 👉 **[https://tarunmanikanta5706.github.io/portfolio/](https://tarunmanikanta5706.github.io/portfolio/)** 👈
+### 👉 **[https://tarunmanikanta5706.github.io/PORTFOLIO-TARUN/](https://tarunmanikanta5706.github.io/PORTFOLIO-TARUN/)** 👈
 
-*Click the link above to visit the live portfolio website (publicly accessible to everyone)*
+*Publicly accessible to everyone — no login required!*
 
 </div>
 
@@ -35,7 +35,7 @@
 ## 📁 Project Structure
 
 ```
-portfolio/
+PORTFOLIO-TARUN/
 ├── index.html       # Main landing page (coming soon)
 └── README.md        # This file
 ```
@@ -55,20 +55,15 @@ portfolio/
 
 ## 🚀 Local Development
 
-To run this locally, simply open `index.html` in your browser:
-
 ```bash
 # Clone the repository
-git clone https://github.com/tarunmanikanta5706/portfolio.git
+git clone https://github.com/tarunmanikanta5706/PORTFOLIO-TARUN.git
 
 # Navigate to the folder
-cd portfolio
+cd PORTFOLIO-TARUN
 
 # Open in browser (macOS)
 open index.html
-
-# Or use a live server (if you have VS Code + Live Server extension)
-# Right-click index.html → Open with Live Server
 ```
 
 ---
