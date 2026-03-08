@@ -6,7 +6,7 @@
 
 ## 🌐 LIVE WEBSITE — Click to Open
 
-# 👉 [https://thin-cities-give.loca.lt](https://thin-cities-give.loca.lt) 👈
+# 👉 [https://free-peas-hide.loca.lt](https://free-peas-hide.loca.lt) 👈
 
 > ⚡ **This link is publicly accessible to everyone — share it with anyone!**
 > *(Powered by localhost tunnel — keep your local server running for this link to stay live)*
@@ -27,7 +27,7 @@
 
 | Type | URL |
 |------|-----|
-| 🔴 **Live Local Tunnel** | **[https://thin-cities-give.loca.lt](https://thin-cities-give.loca.lt)** |
+| 🔴 **Live Local Tunnel** | **[https://free-peas-hide.loca.lt](https://free-peas-hide.loca.lt)** |
 | 💜 GitHub Pages (permanent) | [https://tarunmanikanta5706.github.io/PORTFOLIO-TARUN/](https://tarunmanikanta5706.github.io/PORTFOLIO-TARUN/) |
 | 📁 GitHub Repo | [https://github.com/tarunmanikanta5706/PORTFOLIO-TARUN](https://github.com/tarunmanikanta5706/PORTFOLIO-TARUN) |
 
@@ -35,7 +35,7 @@
 
 ## 🚀 How to Keep the Live Link Active
 
-To keep `https://thin-cities-give.loca.lt` working for everyone:
+To keep `https://free-peas-hide.loca.lt` working for everyone:
 
 ```bash
 # Step 1: Go to your portfolio folder
