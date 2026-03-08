@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✨ Gayatri Vankayala — Portfolio
+# ✨ Tarun Manikanta Vankayala — Portfolio
 
 <br/>
 
@@ -65,6 +65,6 @@ PORTFOLIO-TARUN/
 
 <div align="center">
 
-Made with 💜 by **Gayatri Vankayala** &nbsp;|&nbsp; Hosted on GitHub Pages + localtunnel
+Made with 💜 by **Tarun Manikanta Vankayala** &nbsp;|&nbsp; Hosted on GitHub Pages + localtunnel
 
 </div>
