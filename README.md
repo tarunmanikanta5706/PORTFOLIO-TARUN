@@ -4,31 +4,52 @@
 
 <br/>
 
-[![🌐 Live Website](https://img.shields.io/badge/🌐%20Live%20Website-Visit%20Now-a855f7?style=for-the-badge&logoColor=white)](https://tarunmanikanta5706.github.io/PORTFOLIO-TARUN/)
+## 🌐 LIVE WEBSITE — Click to Open
+
+# 👉 [https://thin-cities-give.loca.lt](https://thin-cities-give.loca.lt) 👈
+
+> ⚡ **This link is publicly accessible to everyone — share it with anyone!**
+> *(Powered by localhost tunnel — keep your local server running for this link to stay live)*
 
 <br/>
 
-> **🚀 Portfolio is under construction — something amazing is coming soon!**
+---
 
-<br/>
-
+[![GitHub Pages Backup](https://img.shields.io/badge/GitHub%20Pages%20(Backup)-Visit-a855f7?style=for-the-badge&logo=github)](https://tarunmanikanta5706.github.io/PORTFOLIO-TARUN/)
 ![Status](https://img.shields.io/badge/Status-Coming%20Soon-ec4899?style=flat-square)
-![Maintained](https://img.shields.io/badge/Maintained-Yes-06b6d4?style=flat-square)
-![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-181717?style=flat-square&logo=github)
+![Hosted](https://img.shields.io/badge/Tunnel-localtunnel-06b6d4?style=flat-square)
 
 </div>
 
 ---
 
-## 🔗 Live URL
+## 🔗 Links
 
-<div align="center">
+| Type | URL |
+|------|-----|
+| 🔴 **Live Local Tunnel** | **[https://thin-cities-give.loca.lt](https://thin-cities-give.loca.lt)** |
+| 💜 GitHub Pages (permanent) | [https://tarunmanikanta5706.github.io/PORTFOLIO-TARUN/](https://tarunmanikanta5706.github.io/PORTFOLIO-TARUN/) |
+| 📁 GitHub Repo | [https://github.com/tarunmanikanta5706/PORTFOLIO-TARUN](https://github.com/tarunmanikanta5706/PORTFOLIO-TARUN) |
 
-### 👉 **[https://tarunmanikanta5706.github.io/PORTFOLIO-TARUN/](https://tarunmanikanta5706.github.io/PORTFOLIO-TARUN/)** 👈
+---
 
-*Publicly accessible to everyone — no login required!*
+## 🚀 How to Keep the Live Link Active
 
-</div>
+To keep `https://thin-cities-give.loca.lt` working for everyone:
+
+```bash
+# Step 1: Go to your portfolio folder
+cd /Users/vankayala_gayatri/Desktop/portfolio
+
+# Step 2: Start local server
+python3 -m http.server 8080
+
+# Step 3: In a NEW terminal — start the public tunnel
+npx localtunnel --port 8080
+```
+
+> ⚠️ The tunnel URL may change each time you restart. Update this README with the new URL when it does.
+> 💜 For a **permanent** link use: `https://tarunmanikanta5706.github.io/PORTFOLIO-TARUN/`
 
 ---
 
@@ -42,45 +63,8 @@ PORTFOLIO-TARUN/
 
 ---
 
-## 🛠️ Tech Stack
-
-| Technology | Usage |
-|-----------|-------|
-| **HTML5** | Page structure & semantics |
-| **CSS3** | Animations, glassmorphism, gradients |
-| **Vanilla JS** | Interactive elements |
-| **GitHub Pages** | Free static hosting |
-
----
-
-## 🚀 Local Development
-
-```bash
-# Clone the repository
-git clone https://github.com/tarunmanikanta5706/PORTFOLIO-TARUN.git
-
-# Navigate to the folder
-cd PORTFOLIO-TARUN
-
-# Open in browser (macOS)
-open index.html
-```
-
----
-
-## 📬 Connect
-
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-tarunmanikanta5706-181717?style=for-the-badge&logo=github)](https://github.com/tarunmanikanta5706)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/gayatri-vankayala)
-
-</div>
-
----
-
-<div align="center">
-
-Made with 💜 by **Gayatri Vankayala** &nbsp;|&nbsp; Hosted on GitHub Pages
+Made with 💜 by **Gayatri Vankayala** &nbsp;|&nbsp; Hosted on GitHub Pages + localtunnel
 
 </div>
