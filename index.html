@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarun Manikanta | Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Tarun Manikanta — B.Tech student, Python developer, and Java enthusiast. Showcasing projects in trading bots, quiz apps, and web development." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ──────────────────────────────────────────────────────────────── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">TM<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">☰</button>
+  </nav>
+
+  <!-- ── HERO ─────────────────────────────────────────────────────────────── -->
+  <section class="hero" id="home">
+    <div class="hero-bg-orb orb1"></div>
+    <div class="hero-bg-orb orb2"></div>
+    <div class="hero-content">
+      <p class="hero-greeting">👋 Hello, I'm</p>
+      <h1 class="hero-name">Tarun Manikanta</h1>
+      <p class="hero-role">
+        <span class="typed" id="typed-text"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-desc">
+        A passionate B.Tech student building real-world applications using Python, Java, and modern web technologies.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-code-card">
+      <div class="code-header">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="code-filename">tarun.py</span>
+      </div>
+      <pre class="code-body"><code><span class="kw">class</span> <span class="cls">Tarun</span>:
+    name  = <span class="str">"Tarun Manikanta"</span>
+    year  = <span class="str">"2nd Year B.Tech"</span>
+    loves = [<span class="str">"Python"</span>, <span class="str">"Java"</span>, <span class="str">"Web"</span>]
+
+    <span class="kw">def</span> <span class="fn">greet</span>(self):
+        <span class="kw">return</span> <span class="str">"Let's build something!"</span></code></pre>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ─────────────────────────────────────────────────────────────── -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About <span class="accent">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a 2nd year <strong>B.Tech Computer Science</strong> student who loves turning ideas into working software. I enjoy building backend systems, APIs, and interactive web experiences.</p>
+          <p>I believe in learning by building — every project I create teaches me something new about software design, problem-solving, and clean code.</p>
+          <div class="stats-row">
+            <div class="stat"><span class="stat-num">4+</span><span class="stat-label">Projects</span></div>
+            <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Languages</span></div>
+            <div class="stat"><span class="stat-num">2</span><span class="stat-label">Years Coding</span></div>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="info-row"><span class="info-label">🎓 Education</span><span>B.Tech CSE (2nd Year)</span></div>
+          <div class="info-row"><span class="info-label">💼 Status</span><span class="badge">Open to Internships</span></div>
+          <div class="info-row"><span class="info-label">🌍 Location</span><span>India</span></div>
+          <div class="info-row"><span class="info-label">💻 Primary Lang</span><span>Python & Java</span></div>
+          <div class="info-row"><span class="info-label">🐙 GitHub</span><a href="https://github.com/tarunmanikanta5706" target="_blank">tarunmanikanta5706</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ─────────────────────────────────────────────────────────────── -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <h2 class="section-title">Technical <span class="accent">Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Java</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Frameworks & Libraries</h3>
+          <div class="skill-tags">
+            <span class="tag">Typer CLI</span>
+            <span class="tag">Rich</span>
+            <span class="tag">JDBC</span>
+            <span class="tag">httpx</span>
+            <span class="tag">python-dotenv</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Databases</h3>
+          <div class="skill-tags">
+            <span class="tag">SQLite</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Tools & Platforms</h3>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">IntelliJ IDEA</span>
+            <span class="tag">Postman</span>
+            <span class="tag">Linux CLI</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Concepts</h3>
+          <div class="skill-tags">
+            <span class="tag">REST APIs</span>
+            <span class="tag">CRUD Operations</span>
+            <span class="tag">OOP</span>
+            <span class="tag">Data Structures</span>
+            <span class="tag">HMAC Auth</span>
+            <span class="tag">Clean Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ───────────────────────────────────────────────────────────── -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">My <span class="accent">Projects</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-icon">🤖</div>
+          <div class="project-tags"><span class="tag">Python</span><span class="tag">REST API</span><span class="tag">HMAC</span></div>
+          <h3>Binance Futures Trading Bot</h3>
+          <p>A modular Python CLI application that places Market, Limit, and Stop-Limit orders on Binance Futures Demo Trading with HMAC-SHA256 authentication, rotating log files, and robust error handling.</p>
+          <div class="project-links">
+            <a href="https://github.com/tarunmanikanta5706/binance-futures-bot" target="_blank" class="btn btn-sm">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🎓</div>
+          <div class="project-tags"><span class="tag">Java</span><span class="tag">SQL</span><span class="tag">SQLite</span></div>
+          <h3>Student Management System</h3>
+          <p>A Java console application for managing student records with full CRUD operations. Uses SQLite for persistent storage with a business logic layer, input validation, and a clean menu-driven interface.</p>
+          <div class="project-links">
+            <a href="https://github.com/tarunmanikanta5706/student-management-system" target="_blank" class="btn btn-sm">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🧠</div>
+          <div class="project-tags"><span class="tag">Python</span><span class="tag">JSON</span><span class="tag">CLI</span></div>
+          <h3>Online Quiz Application</h3>
+          <p>An interactive Python quiz application with multiple categories (Python, CS, General Knowledge), score tracking, grade evaluation, and a persistent leaderboard saved to JSON.</p>
+          <div class="project-links">
+            <a href="https://github.com/tarunmanikanta5706/online-quiz-app" target="_blank" class="btn btn-sm">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon">🌐</div>
+          <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+          <h3>Personal Portfolio Website</h3>
+          <p>This responsive portfolio website, built with vanilla HTML, CSS, and JavaScript. Features a dark theme, smooth animations, typed text effect, and a modern glassmorphism design.</p>
+          <div class="project-links">
+            <a href="https://github.com/tarunmanikanta5706/PORTFOLIO-TARUN" target="_blank" class="btn btn-sm">GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ────────────────────────────────────────────────────────────── -->
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+      <p class="contact-sub">I'm currently open to internship opportunities and project collaborations. Feel free to reach out!</p>
+      <div class="contact-links">
+        <a href="https://github.com/tarunmanikanta5706" target="_blank" class="contact-btn">
+          <span>🐙</span> GitHub
+        </a>
+        <a href="mailto:tarunmanikanta5706@gmail.com" class="contact-btn">
+          <span>📧</span> Email Me
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <p>Built with ❤️ by <strong>Tarun Manikanta</strong> &nbsp;|&nbsp; 2026</p>
+    <p class="footer-sub">Made with HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
